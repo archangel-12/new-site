@@ -35,9 +35,11 @@ function Leftpage() {
               <h1 className="text-xl  text-neutral-300 mt-3">
                 archangel
               </h1>
+              <Link href={"https://bitly.ws/TKuC"}>
               <p className="text-xs text-neutral-300 mt-1">
-                thelmao.com
+                hello...
               </p>
+              </Link>
 
               <div className="flex w-full   ">
                 <div className="flex gap-x-1  text-xs my-4">

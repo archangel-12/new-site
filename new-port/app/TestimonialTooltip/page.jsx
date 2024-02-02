@@ -2,11 +2,12 @@
 
 import React, { useState } from "react";
 import { 
-  PiYoutubeLogoThin,
   PiSoundcloudLogoBold,
   PiInstagramLogoBold,
   PiTelevisionBold,
   PiInfoBold,
+  PiYoutubeLogoLight,
+  PiSpotifyLogoBold,
 } from "react-icons/pi";
 
 import {
@@ -49,18 +50,24 @@ function TestimonialTooltip() {
     },
     {
       id: 3,
-      name: "Youtube",
-      position: "www.youtube.com/joscript",
-      image: <PiYoutubeLogoThin />,
+      name: "don't click/press the shit. i swear it's horrible",
+      href: "https://bitly.ws/3bPaL",
+      image: <PiYoutubeLogoLight />,
     },
     {
       id: 4,
+      name: "fav's playlist",
+      href: "https://bitly.ws/3bPaL",
+      image: <PiSpotifyLogoBold />,
+    },
+    {
+      id: 5,
       name: "my favorite site",
       href: "https://bitly.ws/3b4Pk",
       image: <PiTelevisionBold />,
     },
     {
-      id: 5,
+      id: 6,
       name: "additional things about me",
       href: "https://bitly.ws/Svgx",
       image: <PiInfoBold />,

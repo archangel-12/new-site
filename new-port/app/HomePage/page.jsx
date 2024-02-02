@@ -27,12 +27,11 @@ function Homepage() {
             <PiSmiley className="text-6xl text-neutral-50" />
             <div>
               <h1 className="text-2xl font-RubikMedium text-neutral-300">
-                a note,{" "}
-                <span className="text-sm text-neutral-400">my thoughts & perspective innit</span>
+                welcome,{" "}
+                <span className="text-sm text-neutral-400">to my shitty site.</span>
               </h1>
               <p className="max-w-sm text-neutral-400 text-sm">
-                yeah so this me, nice to meet you.<br />{" "}
-                i don't know what is this :/
+                seriously, what you lookin at? go do something bruh<br />{" "}
               </p>
             </div>
           </div>
@@ -47,52 +46,18 @@ function Homepage() {
                     width={1000}
                     height={1000}
                     className="w-24 h-24 object-cover rounded-md"
-                    src="/pic.jpg"
-                    alt=""
+                    src="https://miro.medium.com/v2/resize:fit:1080/1*qCItaG8NMgORwpMFe_UDow.gif"
+                    alt="he's so me..."
                   />
                   <div>
-                    <span className="text-sm">July 22, 2023</span>
+                    <span className="text-sm">Feb 2th 24</span>
                     <h2 className="text-sm font-RubikMedium">
-                      Smooth Animation with React and Framer Motion
+                      introduction
                     </h2>
                   </div>
                 </div>
               </div>
             </Link>
-            <div className="hover:bg-neutral-800 duration-200 transition-all ease-in p-4">
-              <div className="  flex items-center gap-x-3">
-                <Image
-                  height={1000}
-                  width={1000}
-                  className="w-24 h-24 object-cover rounded-md"
-                  src="/game.jpg"
-                  alt=""
-                />
-                <div>
-                  <span className="text-sm">July 22, 2023</span>
-                  <h2 className="text-sm font-RubikMedium">
-                    Smooth Animation with React and Framer Motion
-                  </h2>
-                </div>
-              </div>
-            </div>
-            <div className="hover:bg-neutral-800 duration-200 transition-all ease-in p-4">
-              <div className="  flex items-center gap-x-3">
-                <Image
-                  height={1000}
-                  width={1000}
-                  className="w-24 h-24 object-cover rounded-md"
-                  src="/scult.jpeg"
-                  alt=""
-                />
-                <div>
-                  <span className="text-sm">July 22, 2023</span>
-                  <h2 className="text-sm font-RubikMedium">
-                    Smooth Animation with React and Framer Motion
-                  </h2>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </div>

@@ -1,11 +1,9 @@
 "use client";
 import React from "react";
-import { PiGithubLogoLight, PiMediumLogoBold } from "react-icons/pi";
-import { SiCss3, SiFramer } from "react-icons/si";
+import { PiMediumLogoBold } from "react-icons/pi";
 
 import TestimonialTooltip from "@/app/TestimonialTooltip/page";
 import { motion, useAnimation } from "framer-motion";
-import Image from "next/image";
 
 function page() {
   return (
@@ -29,7 +27,7 @@ function page() {
             <div className="text-neutral-400">
               <h1 className="font-RubikMedium text-neutral-200">more?</h1>
               <div className="flex items-center gap-x-3 mt-6 hover:bg-neutral-800  p-2 rounded-md ">
-                <a href="https://archangel-12.vercel.app/" className="flex items-center gap-x-3">
+                <a href="https://medium.com/@berkohfvasily" className="flex items-center gap-x-3">
                 <div className="bg-neutral-700/50 h-8 w-8 rounded-full flex items-center justify-center">
                   <PiMediumLogoBold className="text-lg" />
                 </div>
