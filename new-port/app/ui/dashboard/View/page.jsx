@@ -38,23 +38,7 @@ function page() {
                 </h3>
                 </a>
               </div>
-              <div className="flex items-center gap-x-3 mt-6 hover:bg-neutral-800  p-2 rounded-md">
-                <div className="bg-neutral-700/50 h-8 w-8 rounded-full flex items-center justify-center">
-                  <SiFramer className="text-lg" />
-                </div>
-                <h3 className="text-xs ">
-                  How to easily creat React <br /> animations: Framer Motion
-                </h3>
-              </div>
-              <div className="flex items-center gap-x-3 mt-6 hover:bg-neutral-800  p-2 rounded-md">
-                <div className="bg-neutral-700/50 h-8 w-8 rounded-full flex items-center justify-center">
-                  <SiCss3 className="text-lg" />
-                </div>
-                <h3 className="text-xs ">TailwindCSS tips</h3>
-              </div>
-
               <div className="border border-neutral-700 my-5" />
-
               <div className="flex items-center justify-center gap-x-2">
                 <TestimonialTooltip />
               </div>

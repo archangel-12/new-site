@@ -1,13 +1,13 @@
 "use client";
 
 import React, { useState } from "react";
-import {
-  PiInstagramLogoThin,
+import { 
   PiYoutubeLogoThin,
-  PiLinkedinLogoThin,
+  PiSoundcloudLogoBold,
+  PiInstagramLogoBold,
+  PiTelevisionBold,
+  PiInfoBold,
 } from "react-icons/pi";
-import { SlFeed } from "react-icons/sl";
-import { LuBox } from "react-icons/lu";
 
 import {
   motion,
@@ -29,7 +29,6 @@ function TestimonialTooltip() {
     springConfig
   );
 
-  // translate the tooltip
   const translateX = useSpring(
     useTransform(x, [-100, 100], [-50, 50]),
     springConfig
@@ -38,33 +37,33 @@ function TestimonialTooltip() {
   const people = [
     {
       id: 1,
-      name: "Our Feeds",
-      position: "www.feed.com",
-      image: <SlFeed />,
+      name: "trust me, i'm not that active",
+      href: "https://www.instagram.com/r3yanson/",
+      image: <PiInstagramLogoBold />,
     },
     {
       id: 2,
-      name: "Instagram",
-      position: "www.feed.com",
-      image: <PiInstagramLogoThin />,
+      name: "i do make music sometimes",
+      href: "http://bitly.ws/Svhi",
+      image: <PiSoundcloudLogoBold />,
     },
     {
       id: 3,
-      name: "Instagram",
-      position: "www.instagram.com",
-      image: <LuBox />,
-    },
-    {
-      id: 4,
       name: "Youtube",
       position: "www.youtube.com/joscript",
       image: <PiYoutubeLogoThin />,
     },
     {
+      id: 4,
+      name: "my favorite site",
+      href: "https://bitly.ws/3b4Pk",
+      image: <PiTelevisionBold />,
+    },
+    {
       id: 5,
-      name: "LinkedIn",
-      position: "www.Linkedin.com/joscript",
-      image: <PiLinkedinLogoThin />,
+      name: "additional things about me",
+      href: "https://bitly.ws/Svgx",
+      image: <PiInfoBold />,
     },
   ];
 
@@ -103,16 +102,20 @@ function TestimonialTooltip() {
                 }}
                 className="absolute -top-16 -left-1/2 translate-x-1/2 flex text-xs  flex-col items-center justify-center rounded-md bg-black z-50 shadow-xl px-4 py-2"
               >
-                <div className="absolute inset-x-10 z-30 w-[20%] -bottom-px bg-gradient-to-r from-transparent via-emerald-500 to-transparent h-px " />
-                <div className="absolute left-10 w-[40%] z-30 -bottom-px bg-gradient-to-r from-transparent via-sky-500 to-transparent h-px " />
-                <div className="font-bold text-white relative z-30 text-base">
+                <div className="font-bold text-white relative z-30 text-xs">
                   {testimonial.name}
                 </div>
                 <div className="text-white text-xs">{testimonial.position}</div>
               </motion.div>
             )}
           </AnimatePresence>
-          <p>{testimonial.image}</p>
+          <a
+            href={testimonial.href}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {testimonial.image}
+          </a>
         </div>
       ))}
     </div>
