@@ -57,7 +57,7 @@ function TestimonialTooltip() {
     {
       id: 4,
       name: "fav's playlist",
-      href: "https://bitly.ws/3bPaL",
+      href: "https://bitly.ws/3cSw2",
       image: <PiSpotifyLogoBold />,
     },
     {

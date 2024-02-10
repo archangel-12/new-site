@@ -84,7 +84,7 @@ function page() {
           </p>
 
           <p>
-          actually, don't. you're just wasting your time in here. go do something, experienced life. okay?
+          actually, don't. you're just wasting your time in here. go experience life, go do something. okay?
           </p>
         </div>
       </div>
