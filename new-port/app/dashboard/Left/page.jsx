@@ -35,7 +35,7 @@ function Leftpage() {
               <h1 className="text-xl  text-neutral-300 mt-3">
                 archangel
               </h1>
-              <Link href={"https://bitly.ws/TKuC"}>
+              <Link href={"https://bitly.ws/3cYbk"}>
               <p className="text-xs text-neutral-300 mt-1">
                 hello...
               </p>
