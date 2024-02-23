@@ -5,6 +5,7 @@ import Dashboard from "@/app/dashboard/layout";
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <link rel="icon" href="/favicon.ico" sizes="any" />
       <title>archangel-12 || the nothing</title>
       <body className="bg-[#171717]">
         <Theming>
