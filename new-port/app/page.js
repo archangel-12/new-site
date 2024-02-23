@@ -33,7 +33,7 @@ function page() {
             </span>
           </Link>
 
-          <Link href={"https://discord.gg/DHWfHRWe2V"}>
+          <Link href={"https://discord.gg/pMbWUqsPwX"}>
             <span>
               <PiDiscordLogoLight className="text-3xl"/>
             </span>
